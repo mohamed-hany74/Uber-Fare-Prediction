@@ -108,7 +108,6 @@ streamlit run app.py
 
 ## Dataset Note
 
-The raw dataset `final_internship_data.csv` is intentionally not committed to Git because it is about 163 MB. GitHub blocks regular files over 100 MB, so the dataset should be stored separately or uploaded through Git LFS if the repository needs to version it.
 
 Expected local placement:
 
