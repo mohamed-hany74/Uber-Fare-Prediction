@@ -245,8 +245,6 @@ Both the frontend and backend perform validation to ensure reliable predictions.
 
 # 📸 Screenshots
 
-# 📸 Screenshots
-
 ## 🏠 Home Page
 
 <p align="center">
@@ -266,4 +264,3 @@ Both the frontend and backend perform validation to ensure reliable predictions.
   <img src="./screenshots/لقطة شاشة 2026-07-19 195557.png" width="45%">
   <img src="./screenshots/لقطة شاشة 2026-07-19 195614.png" width="45%">
 </p>
-
