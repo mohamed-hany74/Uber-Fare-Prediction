@@ -248,7 +248,7 @@ Both the frontend and backend perform validation to ensure reliable predictions.
 ### 🏠 Home Page
 
 <p align="center">
-  <img src="screenshots/image.png" width="90%">
+  <img src="screenshots/لقطة شاشة 2026-07-19 214801.png" width="90%">
 </p>
 
 ---
