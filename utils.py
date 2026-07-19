@@ -63,9 +63,9 @@ def _apply_style(fig, height=420):
 def load_raw_preview(n_rows: int = 100) -> pd.DataFrame:
     """Return the first *n_rows* rows of the raw CSV for preview purposes."""
     try:
-        return pd.read_csv('final_internship_data.csv', nrows=n_rows)
+        return pd.read_csv('data/final_internship_data.csv', nrows=n_rows)
     except FileNotFoundError:
-        st.error("❌ Dataset file `final_internship_data.csv` not found. Make sure it lives in the project root.")
+        st.error("❌ Dataset file `data/final_internship_data.csv` not found. Make sure it lives in the data folder.")
         return pd.DataFrame()
 
 
@@ -81,11 +81,11 @@ def load_cleaned_data_with_steps():
     steps : list[dict]
         Step-by-step audit trail with row counts and descriptions.
     """
-    df = pd.read_csv('final_internship_data.csv')
+    df = pd.read_csv('data/final_internship_data.csv')
 
     steps = [{
         'name': 'Initial Dataset Ingestion',
-        'desc': 'Raw dataset loaded from final_internship_data.csv',
+        'desc': 'Raw dataset loaded from data/final_internship_data.csv',
         'rows': len(df), 'cols': df.shape[1], 'removed': 0,
     }]
 

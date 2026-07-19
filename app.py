@@ -43,7 +43,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0   # disable static file caching
 
-MODEL_PATH = Path("catboost_fare_pipeline.joblib")
+MODEL_PATH = Path("models/catboost_fare_pipeline.joblib")
 
 try:
     _model = joblib.load(MODEL_PATH)

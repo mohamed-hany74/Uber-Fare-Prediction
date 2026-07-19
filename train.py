@@ -33,8 +33,8 @@ from feature_engineering import FEATURE_COLUMNS, create_features
 warnings.filterwarnings("ignore")
 
 # ── Config ────────────────────────────────────────────────────────────────────
-DATA_PATH    = Path("final_internship_data.csv")
-MODEL_OUT    = Path("catboost_fare_pipeline.joblib")
+DATA_PATH    = Path("data/final_internship_data.csv")
+MODEL_OUT    = Path("models/catboost_fare_pipeline.joblib")
 TARGET       = "fare_amount"
 TEST_SIZE    = 0.20
 RANDOM_STATE = 42
